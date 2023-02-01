@@ -11,7 +11,6 @@ export default function Texto({ children, style }) {
     return <Text style={[style, estilo]}>{children}</Text>;
 }
 
-
 const estilos = StyleSheet.create({
     texto: {
         fontFamily: "MontserratRegular"
